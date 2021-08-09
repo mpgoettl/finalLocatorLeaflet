@@ -1,6 +1,6 @@
 /***** NAVBAR *****/
 .navbar-default {
-  background-color: #337ab7;
+  background-color: black;
   border-radius: 0;
   background-image: none;
 }
@@ -17,7 +17,7 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: yellow;
+    color: #ebd122;
 }
 
 /* Navbar links */
@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-  color: yellow;
+  color: #ebd122;
 }
 
 .jumbotron {
@@ -89,23 +89,14 @@ h4 {
    	text-align: center;
 
 }
-#cont {
-	position: absolute;
-}
-
-#panel {
-	
-	box-shadow: 0 0 15px rgba(0,0,0,0.9);
-	padding: 10px;
-	border-radius: 12px;
-	text-align: center;
-}
-
 .panel-title {
 	font-size: 20px;
 }
 
-
+}
+.panel-group {
+	align: left;
+}
 
 
 #map{
@@ -121,9 +112,13 @@ h4 {
 	text-align: center;
 }
 
-
-
-
+.btn-success:active {
+background-color: white;
+	box-shadow: 0 0 15px rgba(0,0,0,0.9);
+	padding: 10px;
+	border-radius: 12px;
+	text-align: center;
+}
 
 
 
